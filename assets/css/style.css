@@ -1,0 +1,32 @@
+.circle__object {
+  fill: green;
+  stroke: orange;
+  animation: fill 5s infinite alternate linear;
+}
+
+@keyframes fill {
+  from {
+    fill: green;
+    stroke: orange;
+  }
+
+  25% {
+    fill: rgb(14, 120, 213);
+    stroke: rgb(28, 204, 175);
+  }
+
+  50% {
+    fill: rgb(231, 132, 27);
+    stroke: rgb(17, 5, 183);
+  }
+
+  75% {
+    fill: rgb(224, 134, 8);
+    stroke: rgb(234, 12, 94);
+  }
+
+  to {
+    fill: red;
+    stroke: rgb(214, 236, 14);
+  }
+}
