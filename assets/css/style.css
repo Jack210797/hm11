@@ -1,7 +1,7 @@
 .circle__object {
   fill: green;
   stroke: orange;
-  animation: fill 5s infinite alternate linear;
+  animation: fill 2s infinite alternate linear;
 }
 
 @keyframes fill {
